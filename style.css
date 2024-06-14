@@ -1,0 +1,316 @@
+/* &Navbar */
+.navbar{
+    height: 5rem;
+    background-color: #fff;
+    border-bottom: 2px solid grey;
+}
+
+.fa-compass{
+    color:red;
+    font-size: 2em;
+}
+
+.nav-link{
+    color:black;
+    margin: 10px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.visibility-mode{
+    border: 1px solid #fff;
+    background-color: white;
+}
+
+.bg_img{
+    background-image: url('https://cdn.wallpapersafari.com/78/25/JU9bGD.jpg');
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.bg_heading{
+    font-family:cursive;
+    text-align: center;
+    padding: 30px;
+    color:crimson;
+    font-size: 48px;
+}
+.tours{
+    height: 480px;
+    background-color:whitesmoke;
+    width: 100%;
+    margin-top: 0px;
+    padding: 10px;
+}
+.tours-heading{
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+}
+.tours-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location{
+    height: 280px;
+    width: 303px;
+    background-color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 30px 80px 20px 100px;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+
+}
+.location:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.location_image1,.location_image2,.location_image3,.location_image4,.location_image5,.location_image6,.location_image7,.location_image8,.location_image9{
+    background-image: url('https://miro.medium.com/v2/resize:fit:743/0*kGkpECy3UfkjF-Q2.jpeg');
+    background-size: cover;
+    height: 200px;
+    width: 303px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.location_image2{
+    background-image: url('https://image.kesari.in/upload/E6/london_eye_county_ha_JHacI.jpg');
+}
+.location_image3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs20soorRdcbJG__bcYWyNdi0RkBwsHr3RmQ&s");
+}
+.tours-container p{
+    padding: 3px 0px 2px 2px;
+    font-size: 16px;
+}
+.tours-heading{
+    background-color: whitesmoke;
+}
+
+.browse_button{
+    padding:10px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.f-container{
+    height: 70px;
+    background-color:red;
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    color:#fff;
+}
+.f-container a{
+    margin-top: 5px;
+    color:white;
+    margin: 0px 5px 0px 5px;
+    font-size: 18px;
+}
+@media(min-width:350px) and (max-width:900px){
+    .bg_img{
+        width:100%;
+        height: 250px;
+    }
+    .location{
+        height: 280px;
+        width: 303px;
+        background-color: #fff;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        margin: 30px 60px 20px 65px;
+    }
+
+    .bg_heading{
+        font-family:cursive;
+        text-align: center;
+        padding: 30px;
+        color:crimson;
+        font-size: 26px;
+    }
+
+    .tours{
+        height: 1200px;
+    }
+
+    .f-container{
+        height: 70px;
+        background-color:red;
+        width: 100%;
+        text-align: center;
+        padding: 2px;
+        color:#fff;
+    }
+    
+    .f-container a{
+        margin-top: 5px;
+        color:white;
+    }
+    
+    .navbar-nav{
+        background-color: white !important;
+    }
+}
+/* &Destination */
+.tours-container_destination{
+    height: 1000px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+@media(min-width:370px) and (max-width:675px){
+    .tours-container_destination{
+        height: 3000px;
+    }
+}
+
+.tours_destination{
+    flex: 1;
+}
+
+.location_image4{
+    background-image: url("https://ambaitoursandtravels.com/wp-content/uploads/2022/07/Dc-4JOZV0AAllNE-1024x768.jpg");
+}
+
+.location_image5{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d1/Ram_Janmbhoomi_Mandir%2C_Ayodhya_Dham.jpg");
+}
+
+.location_image6{
+    background-image: url("https://images.firstpost.com/uploads/2023/07/Untitled-design-2023-07-05T192511.411.jpg");
+}
+
+.location_image7{
+    background-image: url("https://images.adsttc.com/media/images/5d44/14fa/284d/d1fd/3a00/003d/large_jpg/eiffel-tower-in-paris-151-medium.jpg?1564742900");
+}
+.location_image8{
+    background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/230516112548-01-crossroads-maldives-aerial.jpg?c=original&q=h_447,c_fill");
+}
+
+.location_image9{
+    background-image: url("https://www.state.gov/wp-content/uploads/2018/11/Russia-2499x1406.jpg");
+}
+
+/* &Contact */
+body {
+    background-color: #f5f5f5;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-heading{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-options {
+    margin-bottom: 20px;
+}
+
+.contact-options div {
+    margin-bottom: 10px;
+}
+
+.call, .email {
+    display: flex;
+    align-items: center;
+    color: #555;
+}
+
+.fa-phone, .fa-envelope {
+    margin-right: 10px;
+    color: red;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.fullname,.mobile-no,.query{
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;    
+}
+
+.submit{
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.submit:hover {
+    background-color: orangered;
+}
+
+/* &ABOUT */
+.about-company {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-heading{
+    color:red;
+    font-size: 26px;
+    text-decoration: dashed underline;
+}
+.about-company p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.about-company ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.about-company ul li {
+    padding-left: 20px;
+    position: relative;
+}
+
+.about-company ul li::before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: red;
+}
+
+@media(min-width:750px) and (max-width:1030px){
+    .bg_img{
+        width:100%;
+        height: 450px;
+    }
+    .tours-container_destination{
+        height: 3000px;
+    }
+}
